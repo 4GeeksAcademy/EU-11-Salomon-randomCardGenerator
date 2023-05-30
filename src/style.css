@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card-header {
+  font-size: large;
+}
+.card-footer {
+  font-size: large;
+}
+.card-title {
+  font-size: xx-large;
+}
+
+.card {
+  height: 444.5px;
+  width: 285.5px;
+}
+
+p {
+  margin-top: 8rem;
+  font-size: xx-large !important;
+}
