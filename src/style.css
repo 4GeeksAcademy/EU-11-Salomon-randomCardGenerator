@@ -4,21 +4,33 @@ body {
   background-color: green;
 }
 .card-header {
-  font-size: large;
+  font-size: 30px;
+  align-self: flex-start;
+  text-shadow: 1.5px 1.5px grey;
 }
 .card-footer {
-  font-size: large;
+  align-self: flex-end;
+  font-size: 30px;
+  text-shadow: 1.5px 1.5px grey;
+  transform: rotateX(180deg);
 }
-.card-title {
-  font-size: xx-large;
+
+.card-text {
+  font-size: 65px;
+  text-shadow: 1.5px 1.5px grey;
 }
 
 .card {
+  justify-content: space-between;
   height: 444.5px;
   width: 285.5px;
+  box-shadow: 8px 5px 10px -1px black;
 }
 
-p {
-  margin-top: 8rem;
-  font-size: xx-large !important;
+.red {
+  color: red;
+}
+
+.button {
+  box-shadow: 8px 5px 10px -1px black;
 }

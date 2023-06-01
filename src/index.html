@@ -12,23 +12,43 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body onload="">
+  <body>
     <div class="container">
-      <div class="row display-flex justify-content-center align-item-center">
+      <div
+        class="row display-flex justify-content-center align-item-center mt-4"
+      >
         <div class="card mb-3" style="max-width: 22rem;">
-          <div class="card-header bg-white border-0" id="randomSuites">♥</div>
-          <div class="card-body text-dark border-0">
-            <h1 class="card-title"></h1>
-            <p
-              class="card-text align-item-center text-center fs-1 fw-bold"
-              id="randomNumbers"
-            >
-              7
-            </p>
-          </div>
-          <div class="card-footer bg-white text-end border-0">
-            ♥
-          </div>
+          <div class="card-header bg-white border-0" id="cardSuiteHeader"></div>
+          <div
+            class="card-text d-flex justify-content-center"
+            id="cardNumber"
+          ></div>
+          <div class="card-footer bg-white border-0" id="cardSuiteFooter"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-2">
+          <button type="button" id="reloadButton" class="btn btn-outline-light">
+            Card Generator Button
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-2">
+        <div class="col-2">
+          <label for="cardWidth">Card Width:</label>
+          <input type="text" id="cardWidth" />
+          <label for="cardHeight">Card Height:</label>
+          <input type="text" id="cardHeight" />
+          <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col mt-3">
+          <button type="button" id="applyButton" class="btn btn-outline-light ">
+            Apply Changes
+          </button>
         </div>
       </div>
     </div>
